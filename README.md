@@ -3,7 +3,8 @@
 # python pomodoro timer for developers
 
 This post is about a Pomodoro timer script that was created specifically for developers so they can have a break between work. Stay tuned with us.
-
+---
+# Updaate Version 1.5 Is Comming....
 ---
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 # Features:
