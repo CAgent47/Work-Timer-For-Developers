@@ -59,7 +59,7 @@ os.system("sudo apt install python3-full")
 
 ---
 
-# -👤Created By GodFather 
+# -👤Created By CAgent_47
 
 # -📜MTA Scripter • Linux Learner🐧 • python Learning Developer • Bash Scripter • Sql •🇺🇸🔥
 ---
