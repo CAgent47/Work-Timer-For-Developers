@@ -69,4 +69,4 @@ os.system("sudo apt install python3-full")
 [#Automation](https://github.com/topics/automation) •
 [#Python](https://github.com/topics/python)
 ---
-![Tux](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg)
+![Banner](banner.png)
