@@ -1,5 +1,3 @@
-![python](image-204-740x414.png)
-
 # python work timer For all developers (V2.0)
 
 This post is about a Pomodoro timer script that was created specifically for developers so they can have a break between work. Stay tuned with us.
