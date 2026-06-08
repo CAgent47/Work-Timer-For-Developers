@@ -7,7 +7,7 @@ This post is about a Pomodoro timer script that was created specifically for dev
 1. Error Handling
 2. exact time
 3. input management
-4. UI with tkinter
+4. UI with tkinter with the Help of AI
 
 ---
 # Result:
@@ -34,7 +34,7 @@ python3 main.py
 
 ---
 
-# -👤Created By CAgent_47
+# -👤Created By CAgent_47 & Dev-vesper
 
 # -📜MTA Scripter • Linux Learner🐧 • python Learning Developer • Bash Scripter • Sql •🇺🇸🔥
 ---
