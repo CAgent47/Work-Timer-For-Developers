@@ -18,15 +18,7 @@ class WorkingTimeApp:
         self.is_running = False
         self.timer_thread = None
         self.is_paused = False
-<<<<<<< HEAD
-<<<<<<< HEAD
-        self.stop_event = threading.Event()  # جدید برای قطع sleep
-=======
         self.stop_event = threading.Event()  # New Sleep For Stop
->>>>>>> upstream/main
-=======
-        self.stop_event = threading.Event()  # New Sleep For Stop
->>>>>>> origin/main
         
         # Setup UI
         self.setup_ui()
@@ -34,15 +26,7 @@ class WorkingTimeApp:
     def setup_ui(self):
         # Main frame
         main_frame = tk.Frame(self.root, bg='#0f172a')
-<<<<<<< HEAD
-<<<<<<< HEAD
-        main_frame.pack(expand=True, fill='both', padx=30, pady=20)  # کاهش pady کلی
-=======
         main_frame.pack(expand=True, fill='both', padx=30, pady=20)  # Reduce overall paddy
->>>>>>> upstream/main
-=======
-        main_frame.pack(expand=True, fill='both', padx=30, pady=20)  # Reduce overall paddy
->>>>>>> origin/main
         
         # Header
         header_frame = tk.Frame(main_frame, bg='#0f172a')
@@ -73,15 +57,7 @@ class WorkingTimeApp:
         # Timer display
         timer_container = tk.Frame(main_frame, bg='#1e293b', highlightbackground='#f59e0b',
                                 highlightthickness=2, bd=0)
-<<<<<<< HEAD
-<<<<<<< HEAD
-        timer_container.pack(pady=20, padx=40)  # کاهش pady
-=======
         timer_container.pack(pady=20, padx=40)  # reduction of paddy
->>>>>>> upstream/main
-=======
-        timer_container.pack(pady=20, padx=40)  # reduction of paddy
->>>>>>> origin/main
         
         self.timer_display = tk.Label(
             timer_container,
@@ -96,15 +72,7 @@ class WorkingTimeApp:
         
         # Minutes input section
         input_card = tk.Frame(main_frame, bg='#1e293b', relief='flat', bd=0)
-<<<<<<< HEAD
-<<<<<<< HEAD
-        input_card.pack(pady=15, fill='x', padx=20)  # کاهش pady
-=======
         input_card.pack(pady=15, fill='x', padx=20)  # reduction of paddy
->>>>>>> upstream/main
-=======
-        input_card.pack(pady=15, fill='x', padx=20)  # reduction of paddy
->>>>>>> origin/main
         
         minute_icon = tk.Label(
             input_card,
@@ -140,15 +108,7 @@ class WorkingTimeApp:
         
         # Control buttons (Start, Pause, Resume)
         button_frame = tk.Frame(main_frame, bg='#0f172a')
-<<<<<<< HEAD
-<<<<<<< HEAD
-        button_frame.pack(pady=15)  # کاهش pady
-=======
         button_frame.pack(pady=15)  #reduction of paddy
->>>>>>> upstream/main
-=======
-        button_frame.pack(pady=15)  #reduction of paddy
->>>>>>> origin/main
         
         self.start_button = self.create_styled_button(
             button_frame, "▶  START", '#10b981', '#059669', self.start_timer
@@ -167,15 +127,7 @@ class WorkingTimeApp:
         
         # Status display
         self.status_frame = tk.Frame(main_frame, bg='#1e293b', relief='flat')
-<<<<<<< HEAD
-<<<<<<< HEAD
-        self.status_frame.pack(pady=15, fill='x', padx=40)  # کاهش pady
-=======
         self.status_frame.pack(pady=15, fill='x', padx=40)  # reduction of paddy
->>>>>>> upstream/main
-=======
-        self.status_frame.pack(pady=15, fill='x', padx=40)  # reduction of paddy
->>>>>>> origin/main
         
         self.status_icon = tk.Label(
             self.status_frame,
@@ -215,15 +167,7 @@ class WorkingTimeApp:
                     lightcolor='#f59e0b',
                     darkcolor='#f59e0b')
         
-<<<<<<< HEAD
-<<<<<<< HEAD
-        # Reset button (جای جدید: پایین، بعد از progress bar)
-=======
         # Reset button
->>>>>>> upstream/main
-=======
-        # Reset button
->>>>>>> origin/main
         reset_frame = tk.Frame(main_frame, bg='#0f172a')
         reset_frame.pack(pady=(5, 15))
         self.reset_button = self.create_styled_button(
@@ -396,15 +340,7 @@ class WorkingTimeApp:
         messagebox.showinfo("Time's Up!", f"Your {self.minutes_entry.get()}-minute session is complete! 🎉")
     
     def pause_timer(self):
-<<<<<<< HEAD
-<<<<<<< HEAD
-        # این متدم برای پاوز کردن
-=======
         # Puse
->>>>>>> upstream/main
-=======
-        # Puse
->>>>>>> origin/main
         if not self.is_running or self.is_paused:
             return
         self.is_paused = True
@@ -414,15 +350,7 @@ class WorkingTimeApp:
         self.status_label.config(text="Paused", fg='#f59e0b')
     
     def resume_timer(self):
-<<<<<<< HEAD
-<<<<<<< HEAD
-        # این ادامه هست
-=======
         # Resum
->>>>>>> upstream/main
-=======
-        # Resum
->>>>>>> origin/main
         if not self.is_running or not self.is_paused:
             return
         self.is_paused = False
@@ -450,15 +378,7 @@ class WorkingTimeApp:
             self.remaining_seconds = 25 * 60
             self.update_display()
         
-<<<<<<< HEAD
-<<<<<<< HEAD
-        # فعال کردن دکمه ها
-=======
         # Active Buttons
->>>>>>> upstream/main
-=======
-        # Active Buttons
->>>>>>> origin/main
         self.start_button.config(state='normal')
         self.pause_button.config(state='disabled')
         self.resume_button.config(state='disabled')
