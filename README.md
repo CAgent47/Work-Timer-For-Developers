@@ -34,7 +34,7 @@ python3 main.py
 
 ---
 
-# -👤Created By CAgent_47
+# -👤Created By CAgent_47 & Dev-vesper
 
 # -📜MTA Scripter • Linux Learner🐧 • python Learning Developer • Bash Scripter • Sql •🇺🇸🔥
 ---
