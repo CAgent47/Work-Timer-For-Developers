@@ -12,7 +12,13 @@ This post is about a Pomodoro timer script that was created specifically for dev
 ---
 # Result:
 
-![result](Result.png)
+![result](Result/Result.png)
+
+![pused](Result/Pused.png)
+
+![TimesUp](Result/TimesUp.png)
+
+![Working](Result/Working.png)
 
 ---
 
