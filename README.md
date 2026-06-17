@@ -10,7 +10,7 @@ This post is about a Pomodoro timer script that was created specifically for dev
 4. UI with tkinter with the Help of AI
 
 ---
-# Result:
+# Result Photos:
 
 ![result](Result/Result.png)
 
@@ -22,7 +22,7 @@ This post is about a Pomodoro timer script that was created specifically for dev
 
 ---
 
-# What Is Work Time:
+# What Is Work Time For Developers:
 
 **This program is designed to add focus to the work and encourage the programmer to work even when they are unmotivated to finish the timer.**
 
@@ -33,6 +33,7 @@ This post is about a Pomodoro timer script that was created specifically for dev
 ![Download](https://github.com/CAgent47/Work-Timer-For-Developers/archive/refs/heads/main.zip)
 
 ```bash
+
 sudo apt install -y python3-full
 cd work_timer
 python3 main.py
