@@ -269,7 +269,6 @@ class WorkingTimeApp:
             self.timer_thread.start()
             
             def run_backend():
-                from working_time import working
                 working(minutes)
             backend_thread = threading.Thread(target=run_backend, daemon=True)
             backend_thread.start()
@@ -318,8 +317,8 @@ class WorkingTimeApp:
         self.is_paused = False
         self.stop_event.set()
         
-        self.status_icon.config(text="✅", fg='#10b981')
-        self.status_label.config(text="Time's up! 🎉", fg='#10b981')
+        self.status_icon.config(text="Success:", fg='#10b981')
+        self.status_label.config(text="Time's up!", fg='#10b981')
         
         self.start_button.config(state='normal')
         self.pause_button.config(state='disabled')
