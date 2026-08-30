@@ -362,7 +362,7 @@ class WorkingTimeApp:
         """Reset timer completely"""
         self.is_running = False
         self.is_paused = False
-        self.stop_event.set()   # باعث می‌شه ترد اصلی از sleep خارج بشه
+        self.stop_event.set()
         if self.timer_thread and self.timer_thread.is_alive():
             self.timer_thread.join(timeout=0.5)
         
